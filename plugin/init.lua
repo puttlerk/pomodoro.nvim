@@ -1,7 +1,7 @@
 M = {}
 
-local SEC_PER_MIN <const> = 60
-local MIN_PER_HR	<const> = 60
+local SEC_PER_MIN = 60
+local MIN_PER_HR  = 60
 
 M.startTimer = function (min)
 	return os.time() + (min * SEC_PER_MIN)
